@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de DPS</title>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
+    <link href="web.css" rel="stylesheet">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <p id="links">LINKS ÚTEIS</p>
+        <p id="caixa-texto1">VALOR DO 1° HIT</p>
+        <p id="caixa-texto2">VALOR DO 2° HIT</p>
+        <p id="titulo">CALCULE A PORCENTAGEM ABAIXO</p>
+        <p id="instrucao">INSTRUÇÃO: VÁ ATÉ UM MANEQUIM LOCALIZADO NO CAMPO PRÓXIMO A QUALQUER FORTE. DÊ UM ATAQUE BÁSICO COM SUAS BUILDS E COMPARE A DIFERENÇA DE DANO EM PERCENTUAL.</p>
+        <input type="text" id="caixa1" autocomplete="off">
+        <input type="text" id="caixa2" autocomplete="off">
+        <button id="botao-calcular" onclick="calcular()">Calcular</button>
+        <button id="FB" onclick="openFB()"></button>
+        <button id="DB" onclick="openDB()"></button>
+        <button id="MP" onclick="openMP()"></button>
+        <p id="resultado"></p>
+        <p id="erro">Não pode calcular letras</p>
+        <p id="null">Por favor, digite os valores acima</p>
+    </div>
+</body>
+</html>

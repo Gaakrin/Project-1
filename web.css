@@ -1,0 +1,202 @@
+
+        body, html{
+        margin: 0;
+        overflow: hidden;
+        background-image: url("NW.jpg");
+        background-size: cover;
+    }
+    #titulo {
+            font-family: 'IM Fell DW Pica';
+            width: 50vw;
+            color: #dcdcdc;
+            opacity: 90%;
+            text-shadow: -1px -1px 0 #000, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+            font-size: 2vw;
+            text-align: center;
+            position: absolute;
+            top: 15vh;
+            left: 50vw;
+            transform: translateX(-50%);
+        }
+        #instrucao {
+            font-family: 'IM Fell DW Pica';
+            width: 40vw;
+            color: rgb(255, 255, 255);
+            text-shadow: -1px -1px 0 #000, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+            font-size: 1vw;
+            text-align: column;
+            position: absolute;
+            top: 89vh;
+            left: 1vw;
+        }
+        #links {
+            font-family: 'IM Fell DW Pica';
+            width: 40vw;
+            color: rgb(255, 255, 255);
+            text-shadow: -1px -1px 0 #000, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+            font-size: 2vw;
+            text-align: column;
+            position: absolute;
+            top: 2vh;
+            left: 1vw;
+        }
+        #caixa1 {
+            border: transparent; /* Adiciona uma borda ao campo de entrada */
+            border-radius: 10vw; /* Adiciona bordas arredondadas ao campo de entrada */
+            padding: 10px 15px; /* Adiciona um preenchimento interno ao campo de entrada */
+            display: block; /* Inicialmente visível */
+            position: fixed;
+            text-align: center;
+            top: 30vh;
+            left: 50vw;
+            transform: translateX(-50%);
+            background-color: #000;
+            opacity: 70%;
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+        }
+        #caixa2 {
+            border: transparent;
+            border-radius: 10vw; 
+            padding: 10px 15px; 
+            display: block;
+            position:fixed;
+            text-align: center;
+            top: 40vh; 
+            left: 50vw;
+            transform: translateX(-50%);
+            background-color: #000;
+            opacity: 70%;
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+        }
+        #caixa-texto1 {
+            color: white;
+            opacity: 70%;
+            text-shadow: -1px -1px 0 #000, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+            font-size: 1vw;
+            position: fixed;
+            top: 25vh;
+            left: 50vw;
+            transform: translateX(-50%);
+        }
+        #caixa-texto2 {
+            color: white;
+            opacity: 70%;
+            text-shadow: -1px -1px 0 #000, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+            font-size: 1vw;
+            position: absolute;
+            top: 35vh;
+            left: 50vw;
+            transform: translateX(-50%);
+        }
+        #resultado, #erro, #null {
+            color: white;
+            opacity: 70%;
+            text-shadow: -1px -1px 0 #000, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+            font-size: 3vw;
+            text-align: center;
+            position: absolute;
+            top: 55vh;
+            left: 50vw;
+            transform: translateX(-50%);
+            visibility: hidden;
+        }
+        #botao-calcular {
+            background-image: url(botao.png);
+            background-size: 180px;
+            background-position: center;
+            border: none;
+            border-radius: 20px;
+            height: 35px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: #bfbfbf;
+            text-shadow: -1px -1px 0 #000, 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+            cursor: pointer;
+            font-size: 20px;
+            position: absolute;
+            top: 49vh;
+            transition: all ease-in-out 0.2s;
+        }
+        #botao-calcular:hover {
+            transform: scale(103%);
+        }
+        #FB {
+            background-image: url(FB.png);
+            background-size: 2.5vw;
+            background-position: center;
+            background-color: transparent;
+            font-size: 10px;
+            position: absolute;
+            border: none;
+            height: 5vh;
+            width: 2.5vw;
+            top: 15vh;
+            left: 1vw;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        #FB:active {
+        transform: translateY(2px);
+        }
+        #FB::after {
+            content: "FACEBOOK";
+            font-size: 15px;
+            color: #ffffff;
+            position: relative;
+            left: 3vw;
+        }
+        #DB {
+            background-image: url(NWDB.png);
+            background-size: 2.5vw;
+            background-position: center;
+            background-color: transparent;
+            position: absolute;
+            border: none;
+            height: 5vh;
+            width: 2.5vw;
+            top: 25vh;
+            left: 1vw;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        #DB:active {
+        transform: translateY(2px);
+        }
+        #DB::after {
+            content: "DATABASE";
+            font-size: 15px;
+            color: #ffffff;
+            position: relative;
+            left: 3vw;
+        }
+        #MP {
+            background-image: url(market.png);
+            background-size: 2.5vw;
+            background-position: center;
+            background-color: transparent;
+            position: absolute;
+            border: none;
+            height: 5vh;
+            width: 2.5vw;
+            top: 35vh;
+            left: 1vw;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        #MP:active {
+        transform: translateY(2px);
+        }
+        #MP::after {
+            content: "MARKET";
+            font-size: 15px;
+            color: #ffffff;
+            position: relative;
+            left: 3vw;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
