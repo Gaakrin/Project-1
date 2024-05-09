@@ -4,6 +4,7 @@
         overflow: hidden;
         background-image: url("NW.jpg");
         background-size: cover;
+        background-repeat: no-repeat;
     }
     #titulo {
             font-family: 'IM Fell DW Pica';
